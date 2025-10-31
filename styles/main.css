@@ -1,18 +1,7 @@
 /* MAIN CONTENT */
-main {
-  display: flex;
-  flex-direction: column;
-  max-width: 1000px;
-  justify-content: center;
-  margin: auto;
-  gap: 100px;
-  margin-bottom: 45px;
-}
-
 .hero-section {
   display: flex;
   gap: 50px;
-  margin-top: 25px;
 }
 
 .hero-content {
