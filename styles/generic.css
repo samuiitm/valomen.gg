@@ -1,10 +1,11 @@
 /* CONFIGURACIONS PRÈVIES */
 :root {
   --bg: #0B1020;
-  --text: #e5e7eb;
+  --text: #D4D4D4;
   --text2: #9795B5;
   --card: #111827;
   --social-media-bg: #F2F1FA;
+  --active: #fcfcfd45;
   color-scheme: dark;
 }
 
@@ -91,7 +92,7 @@ nav {
 }
 
 .active-page {
-  background-color: #fcfcfd45;
+  background-color: var(--active);
   border-radius: 30px
 }
 
@@ -102,7 +103,7 @@ main {
   max-width: 1000px;
   justify-content: center;
   margin: auto;
-  gap: 100px;
+  gap: 30px;
   padding: 60px;
 }
 

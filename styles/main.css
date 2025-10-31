@@ -1,7 +1,18 @@
+:root {
+  --bg: #0B1020;
+  --text: #D4D4D4;
+  --text2: #9795B5;
+  --card: #111827;
+  --borders: #ffffff1a;
+  --social-media-bg: #F2F1FA;
+  color-scheme: dark;
+}
+
 /* MAIN CONTENT */
 .hero-section {
   display: flex;
   gap: 50px;
+  margin-bottom: 60px;
 }
 
 .hero-content {
@@ -73,7 +84,7 @@
   border-radius: 15px;
   padding: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
-  border: 1px solid rgba(255, 255, 255, .1);
+  border: 1px solid var(--borders);
   width: calc(33.333% - 13.33px);
   transition: transform 0.3s;
 }
