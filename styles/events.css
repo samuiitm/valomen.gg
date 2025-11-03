@@ -3,7 +3,7 @@
   --text: #D4D4D4;
   --text2: #9795B5;
   --card: #111827;
-  --container-card: #1c243580;
+  --container-card: #18233a;
   --borders: #ffffff1a;
   --section-title: #4f72e6;
   --social-media-bg: #F2F1FA;
@@ -51,8 +51,13 @@
     display: flex;
     padding: 7px;
     border: 1px solid var(--borders);
+    background-color: var(--card);
     border-radius: 24px;
     justify-content: space-between;
+}
+
+.event-block:hover {
+    background-color: #18233a;
 }
 
 .events-block h3 {

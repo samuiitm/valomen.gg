@@ -52,7 +52,6 @@
 
 .active {
     background: var(--active);
-
 }
 
 .matches-day {
@@ -71,6 +70,10 @@
     justify-content: space-between;
     align-items: center;
     font-weight: 300;
+}
+
+.match-block:hover {
+    background-color: #18233a;
 }
 
 .match-info {
