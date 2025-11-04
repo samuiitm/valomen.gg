@@ -5,6 +5,7 @@
   --card: #111827;
   --borders: #ffffff1a;
   --social-media-bg: #F2F1FA;
+  --buttons: #FFF;
   color-scheme: dark;
 }
 
@@ -43,7 +44,7 @@
   border-radius: 40px;
   font-weight: 600;
   text-decoration: none;
-  color: var(--text);
+  color: var(--buttons);
   margin-top: 10px;
   margin-bottom: 10px;
 }

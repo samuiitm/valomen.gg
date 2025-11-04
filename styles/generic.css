@@ -6,6 +6,7 @@
   --card: #111827;
   --social-media-bg: #F2F1FA;
   --active: #fcfcfd45;
+  --buttons: #FFF;
   color-scheme: dark;
 }
 
@@ -88,7 +89,7 @@ nav {
   border-radius: 40px;
   font-weight: 600;
   text-decoration: none;
-  color: var(--text);
+  color: var(--buttons);
 }
 
 .active-page {
