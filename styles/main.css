@@ -51,7 +51,8 @@
 
 .hero-image {
   display: block;
-  background-image: url(../assets/main/hero_image.webp);
+  object-fit: cover;
+  object-position: center;
   background-size: cover;
   background-position: center;
   width: 400px;
@@ -103,4 +104,91 @@
   border-radius: 8px;
   display: block;
   border: 1px solid rgba(255, 255, 255, .1);
+}
+
+/* RESPONSIVE CSS */
+@media (max-width: 1024px) {
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+  }
+
+  .hero-image {
+    width: 80%;
+    max-width: 500px;
+    height: 300px;
+  }
+
+  .news-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .news-card {
+    width: calc(50% - 10px);
+  }
+
+  .get-started-button {
+    margin: auto;
+  }
+  
+  .latest-news h2,
+  .latest-news p,
+  .latest-news h3{
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 0.85rem;
+    line-height: 1.6rem;
+  }
+
+  .hero-image {
+    width: 90%;
+    height: 250px;
+  }
+
+  .news-card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 1.6rem;
+  }
+
+  .get-started-button {
+    padding: 12px 20px;
+    font-size: 0.85rem;
+  }
+
+  .news-card {
+    padding: 15px;
+  }
+
+  .news-card img {
+    height: 170px;
+  }
 }

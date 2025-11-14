@@ -147,3 +147,65 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+/* RESPONSIVE CSS*/
+@media (max-width: 1024px) {
+  nav {
+    padding: 16px;
+  }
+
+  main {
+    padding: 40px 30px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .login-button {
+    padding: 8px 20px;
+  }
+
+  footer .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .social-media {
+    justify-content: center;
+  }
+
+  main {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 13px;
+  }
+
+  .nav-links a {
+    padding: 8px 14px;
+    font-size: 0.85rem;
+  }
+
+  footer {
+    padding: 20px;
+    font-size: 0.8rem;
+  }
+}
