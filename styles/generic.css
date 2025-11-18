@@ -199,9 +199,22 @@ footer {
     font-size: 13px;
   }
 
+  header {
+    max-width: 1200;
+    font-size: 0.8rem;
+  }
+
+  nav {
+    gap: 5px;
+  }
+
+  .nav-links {
+    flex-wrap: nowrap;
+  }
+
   .nav-links a {
-    padding: 8px 14px;
-    font-size: 0.85rem;
+    padding: 4px 8px;
+    font-size: 0.5rem;
   }
 
   footer {
