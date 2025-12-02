@@ -9,8 +9,8 @@
   --social-media-bg: #F2F1FA;
   --active: #fcfcfd45;
   --ongoing: #C62432;
-  --upcoming: #3ec55e;
-  --upcoming-time: #498357;
+  --upcoming: #40724a;
+  --upcoming-time: #2c4e32;
   --completed: #4797FF;
   --buttons: #FFF;
   color-scheme: dark;
@@ -73,15 +73,15 @@ label {
 
 .obligatory {
     margin-left: 0;
-    color: #cf2d2d;
+    color: #D85555;
 }
 
 input {
-    background-color: #fff;
+    background-color: var(--container-card);
     border: 1px solid var(--borders);
     border-radius: 30px;
     padding: 20px;
-    color: #0B1020;
+    color: var(--text);
     font-family: inherit;
 }
 

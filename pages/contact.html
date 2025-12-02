@@ -22,10 +22,10 @@
             </div>
             <div class="nav-buttons">
                 <ul class="nav-links">
-                    <li><a title="Home" href="../index.html">Home</a></li>
-                    <li><a title="Matches" href="matches.html">Matches</a></li>
-                    <li><a title="Events" href="events.html">Events</a></li>
-                    <li><a title="Contact" class="active-page" href="contact.html">Contact</a></li>  
+                    <li><a title="Home Page" href="../index.html">Home</a></li>
+                    <li><a title="Matches Page" href="matches.html">Matches</a></li>
+                    <li><a title="Events Page" href="events.html">Events</a></li>
+                    <li><a title="Contact Page" class="active-page" href="contact.html">Contact</a></li>  
                 </ul>
                 <a title="Login" class="login-button" href="login.html">Log in</a>
             </div>
@@ -39,29 +39,32 @@
             <div class="form-fields">
                 <div class="field-container">
                     <div class="block">
-                        <label>Name <span class="obligatory">*</span></label>
-                        <input required type="text" placeholder="Name">
+                        <label for="nombre">Name <span class="obligatory">*</span></label>
+                        <input id="nombre" name="nombre" required type="text" placeholder="Name">
                     </div>
+
                     <div class="block">
-                        <label>Email <span class="obligatory">*</span></label>
-                        <input required type="email" placeholder="Email">
+                        <label for="email">Email <span class="obligatory">*</span></label>
+                        <input id="email" name="email" required type="email" placeholder="Email">
                     </div>
                 </div>
+
                 <div class="field-container">
                     <div class="block">
-                        <label>Phone <span class="obligatory">*</span></label>
-                        <input required type="text" placeholder="Phone">
+                        <label for="telefono">Phone <span class="obligatory">*</span></label>
+                        <input id="telefono" name="telefono" required type="text" placeholder="Phone">
                     </div>
+
                     <div class="block">
-                        <label>Company</label>
-                        <input type="text" placeholder="Company">
+                        <label for="empresa">Company</label>
+                        <input id="empresa" name="empresa" type="text" placeholder="Company">
                     </div>
-                </div> 
-                <div class="field-container">
+                </div>
+                <div class="field-container-message">
                     <div class="container-message">
-                        <label>Leave us a message</label>
-                        <textarea required placeholder="Message"></textarea>
-                    </div>  
+                        <label for="mensaje"><span>Leave us a message</span></label>
+                        <textarea id="mensaje" name="mensaje" required placeholder="Message"></textarea>
+                    </div>
                 </div>           
             </div>
             <button title="Send button" class="send-button">Send message</button>
@@ -72,7 +75,7 @@
         <div class="container">
             <div class="logo">
                 <a title="Home Page" href="../index.html">
-                    <img src="assets/valomen_logo.webp" alt="Valomen.gg Logo">
+                    <img src="../assets/valomen_logo.webp" alt="Valomen.gg Logo">
                     <span>Valomen.gg</span>
                 </a>
             </div>

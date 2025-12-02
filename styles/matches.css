@@ -3,13 +3,14 @@
   --text: #E6E6E6;
   --text2: #9795B5;
   --card: #111827;
+  --container-card: #18233a;
   --borders: #ffffff1a;
   --section-title: #5477E8;
   --social-media-bg: #F2F1FA;
   --active: #fcfcfd45;
   --ongoing: #C62432;
-  --upcoming: #5CA36C;
-  --upcoming-time: #498357;
+  --upcoming: #40724a;
+  --upcoming-time: #2c4e32;
   color-scheme: dark;
 }
 
@@ -40,10 +41,15 @@
 .tab {
     display: block;
     padding: 6px 12px;
-    font-weight: 500;
     text-decoration: none;
     color: inherit;
     border-radius: 30px;
+}
+
+.tab h1 {
+    margin: 0;
+    font-size: 0.85rem;
+    font-weight: 500;
 }
 
 .tab:hover {

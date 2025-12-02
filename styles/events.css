@@ -8,7 +8,7 @@
   --section-title: #5477E8;
   --social-media-bg: #F2F1FA;
   --active: #fcfcfd45;
-  --ongoing: #C62432;
+  --ongoing: #DF505C;
   --upcoming: #3ec55e;
   --upcoming-time: #498357;
   --completed: #4797FF;
@@ -29,9 +29,11 @@
     gap: 60px;
 }
 
-.events-header span {
+.events-header h1 {
     font-weight: bold;
     color: var(--section-title);
+    font-size: 0.85rem;
+    margin: 0;
     width: 50%;
 }
 
@@ -71,6 +73,11 @@
     justify-content: space-between;
     width: 100%;
     padding: 10px 15px;
+}
+
+.event-info h2 {
+    margin: 0;
+    font-size: 14px;
 }
 
 .event-logo {

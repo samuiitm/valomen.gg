@@ -1,6 +1,6 @@
 :root {
   --bg: #0B1020;
-  --text: #D4D4D4;
+  --text: #E6E6E6;
   --text2: #9795B5;
   --card: #111827;
   --container-card: #18233a;
@@ -8,9 +8,9 @@
   --section-title: #4f72e6;
   --social-media-bg: #F2F1FA;
   --active: #fcfcfd45;
-  --ongoing: #DF505C;
-  --upcoming: #3ec55e;
-  --upcoming-time: #498357;
+  --ongoing: #C62432;
+  --upcoming: #40724a;
+  --upcoming-time: #2c4e32;
   --completed: #4797FF;
   --buttons: #FFF;
   color-scheme: dark;
@@ -60,6 +60,7 @@ p {
     flex-direction: column;
     gap: 5px;
     width: 50%;
+    margin: 0;
 }
 
 label {
@@ -69,15 +70,23 @@ label {
 
 .obligatory {
     margin-left: 0;
-    color: #cf2d2d;
+    color: #D85555;
 }
 
+.field-container-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+
 input, textarea {
-    background-color: #fff;
+    background-color: var(--container-card);
     border: 1px solid var(--borders);
     border-radius: 30px;
     padding: 20px;
-    color: #0B1020;
+    color: var(--text);
     font-family: inherit;
 }
 
@@ -92,6 +101,7 @@ textarea {
     flex-direction: column;
     width: 100%;
     gap: 8px;
+    margin: 0;
 }
 
 .send-button {

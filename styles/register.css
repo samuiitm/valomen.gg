@@ -82,15 +82,15 @@ label {
 
 .obligatory {
     margin-left: 0;
-    color: #cf2d2d;
+    color: #D85555;
 }
 
 input {
-    background-color: #fff;
+    background-color: var(--container-card);
     border: 1px solid var(--borders);
     border-radius: 30px;
     padding: 20px;
-    color: #0B1020;
+    color: var(--text);
     font-family: inherit;
 }
 

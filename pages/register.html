@@ -22,10 +22,10 @@
             </div>
             <div class="nav-buttons">
                 <ul class="nav-links">
-                    <li><a title="Home" href="../index.html">Home</a></li>
-                    <li><a title="Matches" href="matches.html">Matches</a></li>
-                    <li><a title="Events" href="events.html">Events</a></li>
-                    <li><a title="Contact" href="contact.html">Contact</a></li>  
+                    <li><a title="Home Page" href="../index.html">Home</a></li>
+                    <li><a title="Matches Page" href="matches.html">Matches</a></li>
+                    <li><a title="Events Page" href="events.html">Events</a></li>
+                    <li><a title="Contact Page" href="contact.html">Contact</a></li>  
                 </ul>
                 <a title="Login" class="login-button" href="login.html">Log in</a>
             </div>
@@ -39,36 +39,41 @@
            <div class="form-fields">
                 <div class="field-container">
                     <div class="block">
-                        <label>Username <span class="obligatory">*</label></span>
-                        <input required type="text" placeholder="Username">
+                        <label for="username">Username <span class="obligatory">*</span></label>
+                        <input id="username" name="username" required type="text" placeholder="Username">
                     </div>
+
                     <div class="block">
-                        <label>Email <span class="obligatory">*</span></label>
-                        <input required type="email" placeholder="Email">
+                        <label for="email">Email <span class="obligatory">*</span></label>
+                        <input id="email" name="email" required type="email" placeholder="Email">
                     </div>
                 </div>
+
                 <div class="field-container">
                     <div class="block">
-                        <label>Name <span class="obligatory">*</span></label>
-                        <input required type="text" placeholder="Name">
+                        <label for="name">Name <span class="obligatory">*</span></label>
+                        <input id="name" name="name" required type="text" placeholder="Name">
                     </div>
+
                     <div class="block">
-                        <label>Surname</label>
-                        <input type="text" placeholder="Surname">
+                        <label for="surname">Surname</label>
+                        <input id="surname" name="surname" type="text" placeholder="Surname">
                     </div>
                 </div>
+
                 <div class="field-container">
                     <div class="block">
-                        <label>Password <span class="obligatory">*</span></label>
-                        <input required type="password" placeholder="Password">
+                        <label for="password">Password <span class="obligatory">*</span></label>
+                        <input id="password" name="password" required type="password" placeholder="Password">
                     </div>
+
                     <div class="block">
-                        <label>Confirm password <span class="obligatory">*</span></label>
-                        <input required type="password" placeholder="Confirm password">
+                        <label for="password_confirm">Confirm password <span class="obligatory">*</span></label>
+                        <input id="password_confirm" name="password_confirm" required type="password" placeholder="Confirm password">
                     </div>
-                </div>          
+                </div>
             </div>
-            <button title="Register" class="send-button">Register</button>
+            <button title="Register button" class="send-button">Register</button>
         </form>
         <a title="Login" href="login.html" class="login-link">Already have an account? Click here</a>
     </main>
@@ -77,7 +82,7 @@
         <div class="container">
             <div class="logo">
                 <a title="Home Page" href="../index.html">
-                    <img src="assets/valomen_logo.webp" alt="Valomen.gg Logo">
+                    <img src="../assets/valomen_logo.webp" alt="Valomen.gg Logo">
                     <span>Valomen.gg</span>
                 </a>
             </div>
